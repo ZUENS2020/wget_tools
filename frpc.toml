@@ -5,4 +5,4 @@ serverPort = 7000
 name = "socks5_pivot" 
 type = "tcp"        
 remotePort = 1080     
-plugin = "socks5"     
+plugin = { type = "socks5" }
